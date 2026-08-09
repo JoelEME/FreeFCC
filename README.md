@@ -46,8 +46,8 @@ A free and open-source Android app that unlocks FCC mode, sends 4G activation fr
 
 | Download | Link |
 |----------|------|
-| FreeFCC App (APK) | [GitHub Releases](https://github.com/doesthings/FreeFCC/releases) or [freefcc.duckdns.org](https://freefcc.duckdns.org) |
-| Helper Apps (zip) | [freefcc.duckdns.org/downloads/freefcc-helpers.zip](https://freefcc.duckdns.org/downloads/freefcc-helpers.zip) |
+| FreeFCC App (APK) | [GitHub Releases](https://github.com/doesthings/FreeFCC/releases) or [freefcc.pages.dev](https://freefcc.pages.dev) |
+| Helper Apps (zip) | [freefcc.pages.dev/downloads/freefcc-helpers.zip](https://freefcc.pages.dev/downloads/freefcc-helpers.zip) |
 
 You need both. The helper apps let you sideload FreeFCC onto the RC2.
 
@@ -79,7 +79,7 @@ If you test it on a model or firmware version not listed here, please [open an i
 
 Tested on Mini 5 Pro with RC2, latest firmware. No PC needed.
 
-The full guide with screenshots is on [freefcc.duckdns.org](https://freefcc.duckdns.org). Here's the short version:
+The full guide with screenshots is on [freefcc.pages.dev](https://freefcc.pages.dev). Here's the short version:
 
 ### 1. Prep the SD card
 
