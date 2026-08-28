@@ -11,18 +11,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout builder files
+      - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Checkout FreeFCC base
-        uses: actions/checkout@v4
-        with:
-          repository: doesthings/FreeFCC
-          ref: 3887bc0
-          path: upstream
 
       - name: Apply Lito X1 Lab patch
-        run: python3 patch/apply_lito_lab.py upstream
+        run: python3 patch/apply_lito_lab.py .
 
       - name: Set up Java 17
         uses: actions/setup-java@v4
@@ -33,14 +26,14 @@ jobs:
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
 
-      - name: Build debug APK
-        working-directory: upstream
+      - name: Build APK
         run: |
           chmod +x gradlew
           ./gradlew --no-daemon assembleDebug
 
       - name: Rename APK
-        run: cp upstream/app/build/outputs/apk/debug/app-debug.apk FreeFCC-LitoX1-Lab-debug.apk
+        run: |
+          cp app/build/outputs/apk/debug/app-debug.apk FreeFCC-LitoX1-Lab-debug.apk
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
