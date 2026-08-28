@@ -1,0 +1,6 @@
+6b954512604bc11591b02bee40d9f39cfa0f3bf95dd0dbfaa9d4482f41e58734  ./CHANGES.md
+19636d2fe57e49260f98fef38b1b8edd64d1500883f40896d54751be3726fb29  ./README.md
+0de2107ab6fc0ea0b1b7eef74d422e5464fdc4b680536b45ba06166de3a5ed86  ./VALIDATION.md
+5307ba0b29e5b24fc34dd3307780389008bb7afc58d9bb6cd5ab0ddb434d8188  ./apply_lito_lab.py
+2f76770083afa74898bb0d3533f7ede35e26e2ab6359658b1cb2ee7305acb50b  ./overlay/.github/workflows/build-lito-lab.yml
+8a4e8ceeb3bd14d7e12133eec0d1ca675e919e64d8f1ed0ae4d7615a7e1cef0f  ./overlay/app/src/main/java/com/freefcc/app/DumlResearch.kt
